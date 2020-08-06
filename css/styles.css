@@ -42,3 +42,9 @@ h1, h2{
     top:-8px;
     margin-bottom: 15px;
 }
+#results h5
+{
+    text-align: center;
+    color:black;
+    
+}

@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <!-- CSS only -->
+  <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- JS, Popper.js, and jQuery -->
@@ -15,27 +16,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
     <title>Book Finder App</title>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <div class="landing">
-        <div class="container">
-            <h1 id="title" class="text-center">Book Finder</h1>
-        </div>
-        <div class="container">
-            <div class="jumbotron">
-                <h3 class="text-center">Search for any Book</h3>
-                <form id="myForm" class="row">
-                    <input type="text" id="books"placeholder="Search Books!......" class="form-control">
-                    <button class="btn btn-primary">Search</button>
-                </form>
-            </div>
-        </div>
-    </div>
-    
-    <div class="container-fluid">
-            <div id="result"class="row col-xs-12 col-sm-6 co-md-4 row text-center" >
-            </div>
-    </div>
+<div class="signin">
+
+<form>
+<h2 style="color:#fff;">Log In</h2>
+<input type="text" name="username" placeholder="Username"/><br /><br />
+<input type="password" name="password" placeholder="Password" /><br /><br />
+<a href="cong.html"><input type="button" value="Log In" /></a><br /><br />
+<div id="container">
+<a href="re.html" style=" margin-right:0px; font-size:13px; font-family:Tahoma, Geneva, sans-serif;">Reset password?</a>
+    <a href="for.html" style=" margin-left:30px; font-size:13px; font-family:Tahoma, Geneva, sans-serif;">Forget password</a>
+    </div><br /><br /><br /><br /><br /><br />
+Don't have account?<a href="sgnup.html" style="font-family:'Play', sans-serif;">&nbsp;Sign Up</a>
+
+</form>
+</div>
     
     <div class="container-fluid">
         <div class="row text-center">
@@ -94,4 +92,4 @@
     </footer>
     <script src="jQuery.js"></script>
     <script src="js/scripts.js"></script>
-</body>
+</body

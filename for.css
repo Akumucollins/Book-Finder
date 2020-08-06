@@ -1,0 +1,15 @@
+
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background: url(/images/library-869061_1920.jpg);
+    background-size: cover;
+}
+a
+{
+    color: yellow;
+    text-decoration: blink;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin-left: 35px;
+}

@@ -1,0 +1,14 @@
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background: url(/images/fairy-tale-1077863_1280.jpg);
+    background-size: cover;
+}
+a
+{
+    color: yellow;
+    text-decoration: blink;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin-left: 35px;
+}

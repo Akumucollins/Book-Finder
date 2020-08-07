@@ -6,7 +6,7 @@ body {
 .landing {
   background-image: url("./images/alfons-morales-YLSwjSy7stw-unsplash.jpg");
   background-color: rgb(10, 220, 248);
-  height: 100%;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,24 +22,24 @@ h2 {
   margin-left: 25%;
 }
 #book {
-    margin-left: 20%;
-    background-color: rgb(129, 24, 24);
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #EFEFEF;
-    box-shadow:
-             /* The top layer shadow */ 0 1px 3px rgba(0, 0, 0, 0.3),
-      /* The second layer */ 0 10px 0 -5px rgb(197, 23, 23),
-      /* The second layer shadow */ 0 10px 1px -4px rgba(0, 0, 0, 0.15),
-      /* The third layer */ 0 20px 0 -10px #eee,
-      /* The third layer shadow */ 0 20px 1px -9px rgba(0, 0, 0, 0.15);
-    padding: 10px;
-    display: inline-block;
-    font-size: 1rem;
-  }
+  margin-left: 20%;
+  background-color: rgb(129, 24, 24);
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #EFEFEF;
+  box-shadow:
+            /* The top layer shadow */ 0 1px 3px rgba(0, 0, 0, 0.3),
+    /* The second layer */ 0 10px 0 -5px rgb(197, 23, 23),
+    /* The second layer shadow */ 0 10px 1px -4px rgba(0, 0, 0, 0.15),
+    /* The third layer */ 0 20px 0 -10px #eee,
+    /* The third layer shadow */ 0 20px 1px -9px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  display: inline-block;
+  font-size: 1rem;
+}
 .btn {
   display: inline-block;
   background: black;

@@ -41,7 +41,7 @@ $(document).ready(function () {
           document.getElementById("result").innerHTML += `
           <div class="container-fluid text-center" id="book">
           <div>
-            <img src=${image} width="100%" height = '100%' alt="book cover "/>
+            <img src=${image} alt="book cover "/>
           </div>
           <div>
             <h5>Book Title: </h5>${title}

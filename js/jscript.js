@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $("#fname,#lname,#email,#pass").focus(function(){
+        $(this).css("background-color","lime");
+    });
+    $("#fname,#lname,#email,#pass").blur(function(){
+        $(this).css("background-color","pink");
+    });
+    $("#fname,#lname,#email,#username").select(function(){
+        $(this).css("background-color","yellow");
+    });
+});

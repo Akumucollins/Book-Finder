@@ -2,7 +2,7 @@ body
 {
     font-family: Tahoma, Geneva, sans-serif;
     color: #fff;
-    background: url(/images/fairy-tale-1077863_1280.jpg);
+    background: url(https://cdn.pixabay.com/photo/2016/01/19/01/42/library-1147815__340.jpg);
     background-size: cover;
 }
 a
@@ -27,7 +27,6 @@ h2
     margin-top: 15px;
     margin-left: 10px;
 }
-
 input[type=password]
 {
     width: 240px;
@@ -42,7 +41,6 @@ input[type=password]
     text-align: center;
     color: white;
 }
-
 input[type=button]
 {
     border: none;

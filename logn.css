@@ -1,4 +1,3 @@
-
 body
 {
     font-family: Tahoma, Geneva, sans-serif;
@@ -37,7 +36,6 @@ input
     outline: none;
     color: #fff;
 }
-
 input[type=button]
 {
     border: none;

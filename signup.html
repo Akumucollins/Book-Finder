@@ -1,97 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
     <title>Book Finder App</title>
 </head>
+
 <body>
     <div class="landing">
         <div class="container">
-            <h1 id="title" class="text-center">Book Finder</h1>
+            <h1 id="title" class="text-center"><i class="fas fa-book"></i> Book Finder</h1>
         </div>
         <div class="container">
             <div class="jumbotron">
-                <h3 class="text-center">Search for any Book</h3>
-                <form id="myForm" class="row">
-                    <input type="text" id="books"placeholder="Search Books!......" class="form-control">
-                    <button class="btn btn-primary">Search</button>
-                    <div class="container-fluid">
-                        <div id="result"class="row col-xs-12 col-sm-6 co-md-4 row text-center" >
-                        </div>
-                    </div>
-                </form>
+                <h4 class="text-center">Search for any Book</h4>
+                <div class="form-group pl-5 " id="search">
+                    <form id="myForm">
+                        <div class="input-field">
+                            <input type="text" id="books" placeholder="Search Your Book Here..">
+                        </div><br>
+                        <button id="button" class="btn btn bg-primary">Search</button>
+                    </form>
+                </div>
+                <div id="result"></div>
             </div>
         </div>
     </div>
-    
-   
 
-    <footer>
-        <div class="container-fluid">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h4>CONNECT</h4>
-                </div>
-                <div class="col-12 social">
-                        <i><img src="../images/social_icons/twitter.png" alt="twitter" id="twitter"></i>
-                        <i><img src="../images/social_icons/dribble.png" alt="dribble" id="dribble"></i>
-                        <i><img src="../images/social_icons/facebook.png" alt="facebook" id="facebook"></i>
-                        <i><img src="../images/social_icons/g_plus.png" alt="g_plus" id="g_plus"></i>
-                        <i><img src="../images/social_icons/skype.png" alt="skype" id="skype"></i>
-                        <i><img src="../images/social_icons/stumble_upon.png" alt="stumble_upon" id="stumble_upon"></i>
-                        <i><img src="../images/social_icons/behance.png" alt="behance" id="behance"></i>
-                        <i><img src="../images/social_icons/pinterest.png" alt="pinterest" id="pinterest"></i>
-                        <i><img src="../images/social_icons/flickr.png" alt="flickr" id="flickr"></i>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <hr class="light">
-                    <h5>Company</h5>
-                    <hr class="light">
-                    <P>55-555-555</P>
-                    <p>email@ouremail.com</p>
-                    <p>100 Street Name</p>
-                    <p>Nairobi, 00100</p>
-                </div>
-                <div class="col-md-4">
-                    <hr class="light">
-                    <h5>Our hours</h5>
-                    <hr class="light">
-                    <P>Monday-Friday: 9am-5pm</P>
-                    <p>Saturday: 10am-4pm </p>
-                    <p>Sunday: closed</p>
-                </div>
-                <div class="col-md-4">
-                    <hr class="light">
-                    <h5>Service Area</h5>
-                    <hr class="light">
-                    <P>Nairobi</P>
-                    <p>Kisumu</p>
-                    <p>Machakos</p>
-                    <p>Mombasa</p>
-                </div>
-                <div class="col-12">
-                    <hr>
-                    <h5>&copy;mpt31 2020</h5>
-                </div>
-            </div>
-        </div>
-    </footer>
+
+
+    
     <script src="js/jQuery.js"></script>
     <script src="js/script.js"></script>
 </body>

@@ -39,38 +39,38 @@ $(document).ready(function () {
 
           // Set the book details in the div
           document.getElementById("result").innerHTML += `
-            <div class="container-fluid text-center" id="book">
-              <div>
-                <img src=${image} width="100px" alt="book cover "/>
-              </div>
-              <div>
-                <h3>Book Title: </h3>${title}
-              </div>
-              <div>
-                <h3>Author:</h3>${author}
-              </div>
-              <div>
-                <h3>Publisher:</h3>${publisher}
-              </div>
-              <div>
-                <h3>Originally Published On:</h3>${publishedDate}
-              </div>
-              <div>
-                <h3>Description:</h3>${description}
-              </div>
-              <div id="pages">
-                <h3>Number of Pages:</h3>${pageCount}
-              </div>
-              <div>
-                <h3>Category: </h3>${categories}
-              </div><br>
-              <div id="preview">
-                <button class="btn"><a href="${preview}">Preview</a></button>
-              </div><br>
-              <div id="info">
-                <button class="btn"><a href="${url}">Read More</a></button>
-              </div>
-            </div>
+          <div class="container-fluid text-center" id="book">
+          <div>
+            <img src=${image} width="100%" height = '100%' alt="book cover "/>
+          </div>
+          <div>
+            <h5>Book Title: </h5>${title}
+          </div>
+          <div>
+            <h5>Author:</h5>${author}
+          </div>
+          <div>
+            <h5>Publisher:</h5>${publisher}
+          </div>
+          <div>
+            <h5>Originally Published On:</h5>${publishedDate}
+          </div>
+          <div>
+            <h5>Description:</h5>${description}
+          </div>
+          <div id="pages">
+            <h5>Number of Pages:</h5>${pageCount}
+          </div>
+          <div>
+            <h5>Category: </h5>${categories}
+          </div><br>
+          <div id="preview">
+            <button class="btn"><a href="${preview}">Preview</a></button>
+          </div><br>
+          <div id="info">
+            <button class="btn"><a href="${url}">Read More</a></button>
+          </div>
+        </div
           `;
         })
 

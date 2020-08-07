@@ -1,6 +1,6 @@
 body
 {
-    background: url(/images/books-1281581.jpg);
+    background: url("../images/books-1281581.jpg");
     background-size: cover;
 }
 a

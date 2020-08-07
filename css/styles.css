@@ -2,7 +2,7 @@ body
 {
     font-family: Tahoma, Geneva, sans-serif;
     color: #fff;
-    background: url(/images/books2-1867168_1920.jpg);
+    background: url("../images/books2-1867168_1920.jpg");
     background-size: cover;
 }
 .signup

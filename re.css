@@ -2,7 +2,7 @@ body
 {
     font-family: Tahoma, Geneva, sans-serif;
     color: #fff;
-    background: url(https://cdn.pixabay.com/photo/2016/01/19/01/42/library-1147815__340.jpg);
+    background: url("https://cdn.pixabay.com/photo/2016/01/19/01/42/library-1147815__340.jpg");
     background-size: cover;
 }
 a
